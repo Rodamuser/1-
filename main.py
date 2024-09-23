@@ -86,7 +86,7 @@ Payment successful ✅'''
 					bot.reply_to(message, msg)
 				else:
 					dd += 1
-					time.sleep(5)
+					time.sleep(10)
 	except Exception as e:
 		print(e)
 	bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text='𝗕𝗘𝗘𝗡 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗘𝗗 ✅\n𝗕𝗢𝗧 𝗕𝗬 ➜ @strawhatchannel69')
